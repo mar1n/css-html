@@ -8,10 +8,14 @@ function App() {
     <div className="App">
 
       <div className='flex-container'>
-        <h1>Shortly</h1>
+        <div className='item'>
+          <h1>Shortly</h1>
+        </div>
       </div>
       <div className="flex-container">
-        <img src={illustrationworking}  alt='ilustration'/>
+        <div className='item'>
+          <img src={illustrationworking} alt='ilustration' />
+        </div>
       </div>
       <div>
         <h1>More than just shorter link</h1>
@@ -33,11 +37,11 @@ function App() {
       </div>
       <div>
         <div>
-          <a href="#"/>
-          <a href="#"/>
+          <a href="#" />
+          <a href="#" />
           <button>Copy</button>
         </div>
-        <a href="#"/>
+        <a href="#" />
       </div>
     </div>
   );

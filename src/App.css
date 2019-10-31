@@ -4,16 +4,19 @@
 
 .flex-container {
   display: flex;
-  flex-direction: column;
+      flex-direction: column;
 }
 
-.flex-container h1 {
+.flex-container item {
   flex: 1;
-}
-.flex-container img {
-  flex: 1;
+  padding: 30px;
 }
 
-img {
-  width: 100%;
+@media only screen and (max-width: 600px) {
+  .flex-container {
+
+  }
+  .flex-container img {
+    width: 100%;
+  }
 }
