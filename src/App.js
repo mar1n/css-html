@@ -1,14 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
+import illustrationworking from './illustration-working.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div>
+
+      <div className='flex-container'>
         <h1>Shortly</h1>
       </div>
-      <div>
+      <div className="flex-container">
+        <img src={illustrationworking}  alt='ilustration'/>
       </div>
       <div>
         <h1>More than just shorter link</h1>
