@@ -28,6 +28,14 @@ function App() {
           <input type='submit' value='submit' />
         </form>
       </div>
+      <div>
+        <div>
+          <a href="#"/>
+          <a href="#"/>
+          <button>Copy</button>
+        </div>
+        <a href="#"/>
+      </div>
     </div>
   );
 }
