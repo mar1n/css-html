@@ -9,7 +9,6 @@ function App() {
         <h1>Shortly</h1>
       </div>
       <div>
-
       </div>
       <div>
         <h1>More than just shorter link</h1>
