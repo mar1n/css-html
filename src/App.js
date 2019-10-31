@@ -21,7 +21,13 @@ function App() {
         <button>Get Started</button>
       </div>
       <div>
-        <input type='text' />
+        <form>
+          <label>
+            Name:
+          </label>
+          <input type='text' name='shorten' />
+          <input type='submit' value='submit' />
+        </form>
       </div>
     </div>
   );
