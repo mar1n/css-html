@@ -37,12 +37,20 @@ p {
   color: #ffffff;
 }
 
+.form2 .button {
+  background-color: #2BD1D1;
+  border: 0;
+  border-radius: 5px;
+  width: 150px;
+  padding: 10px;
+  color: #ffffff;
+}
+
 .item p {
   color: #A19EA5;
 }
 
 .form1 {
-  background-image: url(bg-shorten-mobile.svg);
   width: 100%;
 }
 .form2 {
@@ -51,8 +59,20 @@ p {
 
 form  {
   background-image: url(bg-shorten-mobile.svg);
-  width: 300px;
-  
+  width: auto;
+}
+.form-bg {
+  background-image: url(bg-shorten-mobile.svg);
+  width: 210px;
+  height: 100px;
+  display: inline-block;
+  background-color: tomato;
+}
+
+.test {
+  background-image: url(illustration-working.svg);
+  height: 20px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {

@@ -6,7 +6,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-
       <div className='flex-container'>
         <div className='item'>
           <h1>Shortly</h1>
@@ -37,16 +36,18 @@ function App() {
       </div>
       <div>
         <div className='item'>
-
           <form>
-            <div className='form1'>
-              <input type='text' name='shorten' />
-            </div>
-            <div className='form2'>
-              <input type='submit' value='submit' />
+            <div className='form-bg'>
+              <div className='form1'>
+                <input type='text' name='shorten' />
+              </div>
+              <div className='form2'>
+                <button className='button'>Shorten It</button>
+              </div>
             </div>
           </form>
-
+        </div>
+        <div className='test'>
 
         </div>
       </div>
