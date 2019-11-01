@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import illustrationworking from './illustration-working.svg';
+import topbutton from './toprightbutton.png';
 import './App.css';
 
 function App() {
@@ -11,6 +11,9 @@ function App() {
         <div className='item'>
           <h1>Shortly</h1>
         </div>
+        <div className='item'>
+          <img src={topbutton} alt='top right button' />
+        </div>
       </div>
       <div className="flex-container">
         <div className='item'>
@@ -18,22 +21,34 @@ function App() {
         </div>
       </div>
       <div>
-        <h1>More than just shorter link</h1>
+        <div className='item'>
+          <h1>More than just shorter link</h1>
+        </div>
       </div>
       <div>
-        <p>Build your brand's recognition and get detaild insights on how yout links are preforming</p>
+        <div className='item'>
+          <p>Build your brand's recognition and get detaild insights on how yout links are preforming</p>
+        </div>
       </div>
       <div>
-        <button>Get Started</button>
+        <div className='item'>
+          <button className='button'>Get Started</button>
+        </div>
       </div>
       <div>
-        <form>
-          <label>
-            Name:
-          </label>
-          <input type='text' name='shorten' />
-          <input type='submit' value='submit' />
-        </form>
+        <div className='item'>
+
+          <form>
+            <div className='form1'>
+              <input type='text' name='shorten' />
+            </div>
+            <div className='form2'>
+              <input type='submit' value='submit' />
+            </div>
+          </form>
+
+
+        </div>
       </div>
       <div>
         <div>

@@ -1,15 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 20px;
+}
+
+p {
+  padding: 0px 60px 0px 60px;
+}
+
 .App {
   text-align: center;
 }
 
 .flex-container {
   display: flex;
-      flex-direction: column;
+  justify-content:space-between;
 }
 
 .flex-container item {
   flex: 1;
-  padding: 30px;
+}
+
+.flex-container item {
+  flex: 1;
+}
+
+.button {
+  background-color: #2BD1D1;
+  border: 0;
+  border-radius: 30px;
+  width: 120px;
+  padding: 13px;
+  color: #ffffff;
+}
+
+.item p {
+  color: #A19EA5;
+}
+
+.form1 {
+  background-image: url(bg-shorten-mobile.svg);
+  width: 100%;
+}
+.form2 {
+  width: 100%;
+}
+
+form  {
+  background-image: url(bg-shorten-mobile.svg);
+  width: 300px;
+  
 }
 
 @media only screen and (max-width: 600px) {
