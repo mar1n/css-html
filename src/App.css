@@ -1,6 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
+  
 }
 
 h1 {
@@ -8,7 +7,7 @@ h1 {
 }
 
 p {
-  padding: 0px 60px 0px 60px;
+  padding: 0px 60px 20px 60px;
 }
 
 .App {
@@ -32,11 +31,10 @@ p {
   background-color: #2BD1D1;
   border: 0;
   border-radius: 30px;
-  width: 120px;
-  padding: 13px;
+  width: 140px;
+  height: 40px;
   color: #ffffff;
   font-weight: 800;
-  margin: 20 0 0 0;
 }
 
 .form2 .button {
@@ -44,7 +42,7 @@ p {
   border: 0;
   border-radius: 5px;
   width: 150px;
-  padding: 10px;
+  height: 25px;
   color: #ffffff;
 }
 
@@ -55,7 +53,22 @@ p {
 .form1 {
   width: 100%;
   margin: 5px 0 5px 0;
+  color: #A19EA5;
 }
+
+.form1 input {
+  color: #A19EA5;
+  width: 145px;
+  height: 25px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.form1 input text {
+  padding-left: 5px;
+}
+
 .form2 {
   margin: 5px 0 5px 0;
   width: 100%;
@@ -71,6 +84,7 @@ form  {
   display: inline-block;
   background-color: #4B406B;
   border-radius: 5px;
+  margin-top: 35px;
 }
 
 .test {

@@ -39,7 +39,7 @@ function App() {
           <form>
             <div className='form-bg'>
               <div className='form1'>
-                <input type='text' name='shorten' />
+                <input type='text' name='shorten' value='Shorten a link here'/>
               </div>
               <div className='form2'>
                 <button className='button'>Shorten It</button>
