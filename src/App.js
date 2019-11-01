@@ -31,7 +31,7 @@ function App() {
       </div>
       <div>
         <div className='item'>
-          <button className='button'>Get Started</button>
+          <button className='button-started'>Get Started</button>
         </div>
       </div>
       <div>

@@ -28,13 +28,15 @@ p {
   flex: 1;
 }
 
-.button {
+.button-started {
   background-color: #2BD1D1;
   border: 0;
   border-radius: 30px;
   width: 120px;
   padding: 13px;
   color: #ffffff;
+  font-weight: 800;
+  margin: 20 0 0 0;
 }
 
 .form2 .button {
@@ -52,8 +54,10 @@ p {
 
 .form1 {
   width: 100%;
+  margin: 5px 0 5px 0;
 }
 .form2 {
+  margin: 5px 0 5px 0;
   width: 100%;
 }
 
@@ -64,9 +68,9 @@ form  {
 .form-bg {
   background-image: url(bg-shorten-mobile.svg);
   width: 210px;
-  height: 100px;
   display: inline-block;
-  background-color: tomato;
+  background-color: #4B406B;
+  border-radius: 5px;
 }
 
 .test {
