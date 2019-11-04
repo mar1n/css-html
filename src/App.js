@@ -51,6 +51,36 @@ function App() {
           <div className='item-link'>
             <div className='item-box'>
               <div className='link-top'>
+              <a href="http://www.twitter.com">http://www.twitter.com</a>
+              </div>
+              <div className='link-bottom'>
+                <a href="https://rel.ink/k4IKyk">https://rel.ink/k4IKyk</a>
+              </div>
+              <div className='link'>
+                <button>Copy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='item'>
+          <div className='item-link'>
+            <div className='item-box'>
+              <div className='link-top'>
+                <a href="http://www.linkedin.com">http://www.linkeding.com/compan...</a>
+              </div>
+              <div className='link-bottom'>
+                <a href="https://rel.ink/k4IKyk">https://rel.ink/k4IKyk</a>
+              </div>
+              <div className='link'>
+                <button>Copy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='item'>
+          <div className='item-link'>
+            <div className='item-box'>
+              <div className='link-top'>
                 <a href="http://www.frontendmentor.io">http://www.frontendmentor.io</a>
               </div>
               <div className='link-bottom'>
@@ -66,8 +96,14 @@ function App() {
           <h1>Advanced Statistic</h1>
           <p>Track how your links are preforming across the web with our advanced statistics.</p>
         </div>
-        <div className='test'>
+        <div className='item'>
+          <div className='item-category'>
+            <div className='item-circus'>
 
+            </div>
+            <h1>Brand Recognition</h1>
+            <p>Boost your brand recognition with each click. Generic links help instil confidence in your content.</p>
+          </div>
         </div>
       </div>
       <div>

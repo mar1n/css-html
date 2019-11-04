@@ -144,6 +144,18 @@ form  {
   padding-bottom: 10px;
 }
 
+.item-category {
+  width: auto;
+}
+
+.item-circus {
+  width: 100px;
+  height: 50px;
+  background-color: orange;
+  display: inline-block;
+}
+
+
 @media only screen and (max-width: 600px) {
   .flex-container {
 
