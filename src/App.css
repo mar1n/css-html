@@ -93,6 +93,19 @@ form  {
   width: 100%;
 }
 
+.item-link {
+  width: auto;
+}
+
+.link {
+  width: 200px;
+  display: inline-block;
+}
+
+.item-link a {
+  width: 100%;  
+}
+
 @media only screen and (max-width: 600px) {
   .flex-container {
 

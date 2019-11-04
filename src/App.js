@@ -39,13 +39,28 @@ function App() {
           <form>
             <div className='form-bg'>
               <div className='form1'>
-                <input type='text' name='shorten' value='Shorten a link here'/>
+                <input type='text' name='shorten' value='Shorten a link here' />
               </div>
               <div className='form2'>
                 <button className='button'>Shorten It</button>
               </div>
             </div>
           </form>
+        </div>
+        <div className='item'>
+          <div className='item-link'>
+            <div className='link'>
+            <a href="http://www.frontendmentor.io">http://www.frontendmentor.io</a>
+            </div>
+            <div className='link'>
+            <a href="https://rel.ink/k4IKyk">https://rel.ink/k4IKyk</a>
+            </div>
+            <button>Copy</button>
+          </div>
+        </div>
+        <div className='item'>
+          <h1>Advanced Statistic</h1>
+          <p>Track how your links are preforming across the web with our advanced statistics.</p>
         </div>
         <div className='test'>
 
