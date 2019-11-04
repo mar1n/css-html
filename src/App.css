@@ -12,6 +12,7 @@ p {
 
 .App {
   text-align: center;
+  background-color: #F0F1F6;
 }
 
 .flex-container {
@@ -80,7 +81,7 @@ form  {
 }
 .form-bg {
   background-image: url(bg-shorten-mobile.svg);
-  width: 210px;
+  width: 250px;
   display: inline-block;
   background-color: #4B406B;
   border-radius: 5px;
@@ -102,8 +103,45 @@ form  {
   display: inline-block;
 }
 
+.link button {
+  background-color: #2BD1D1;
+  border: 0;
+  border-radius: 5px;
+  width: 210px;
+  height: 25px;
+  color: #ffffff;
+}
+
+.link-top {
+  border-bottom: 1px solid #F0F1F6;
+  padding: 5px;
+}
+
+.link-bottom {
+  padding: 5px;
+}
+
 .item-link a {
-  width: 100%;  
+  width: 100%;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.link-top a {
+  color: #000;
+}
+
+.link-bottom  a {
+  color: #2BD1D1;
+}
+
+.item-box {
+  width: 250px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {

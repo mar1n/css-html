@@ -49,13 +49,17 @@ function App() {
         </div>
         <div className='item'>
           <div className='item-link'>
-            <div className='link'>
-            <a href="http://www.frontendmentor.io">http://www.frontendmentor.io</a>
+            <div className='item-box'>
+              <div className='link-top'>
+                <a href="http://www.frontendmentor.io">http://www.frontendmentor.io</a>
+              </div>
+              <div className='link-bottom'>
+                <a href="https://rel.ink/k4IKyk">https://rel.ink/k4IKyk</a>
+              </div>
+              <div className='link'>
+                <button>Copy</button>
+              </div>
             </div>
-            <div className='link'>
-            <a href="https://rel.ink/k4IKyk">https://rel.ink/k4IKyk</a>
-            </div>
-            <button>Copy</button>
           </div>
         </div>
         <div className='item'>
