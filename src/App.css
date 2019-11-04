@@ -203,6 +203,18 @@ form  {
   display: inline-block;
 }
 
+.get-started {
+  background-color: #3A3052;
+}
+
+.boost-links {
+  background-color: #3A3052;
+}
+
+.boost-links-shortly {
+  background-color: #000;
+}
+
 @media only screen and (max-width: 600px) {
   .flex-container {
 

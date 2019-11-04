@@ -124,10 +124,34 @@ function App() {
           </div>
         </div>
         <div className='item'>
-          <div className='get-started'>
+          <div className='boost-links'>
             <h1>Boost your links today</h1>
-            <button>Get Started</button>
+            <button className='button-started'>Get Started</button>
           </div>
+        </div>
+        <div className='item'>
+          <div className='boost-links-shortly'>
+            <h1>Shortly</h1>
+            <h4>Features</h4>
+            <p>Link Sortening</p>
+            <p>Branded Links</p>
+            <p>Analytics</p>
+            <h4>Resorces</h4>
+            <p>Blog</p>
+            <p>Developers</p>
+            <p>Support</p>
+            <h4>Company</h4>
+            <p>About</p>
+            <p>Our Team</p>
+            <p>Careers</p>
+            <p>Contact</p>
+          </div>
+        </div>
+        <div className='item'>
+          <div className='footer-facebook'></div>
+          <div className='footer-twitter'></div>
+          <div className='footer-pinterest'></div>
+          <div className='footer-instagram'></div>
         </div>
 
       </div>
