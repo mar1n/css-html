@@ -98,11 +98,29 @@ function App() {
         </div>
         <div className='item'>
           <div className='item-category'>
-            <div className='item-circus'>
+            <div className='item-circus-recognition'>
 
             </div>
             <h1>Brand Recognition</h1>
             <p>Boost your brand recognition with each click. Generic links help instil confidence in your content.</p>
+          </div>
+        </div>
+        <div className='item'>
+          <div className='item-category-records'>
+            <div className='item-circus-customizable'>
+
+            </div>
+            <h1>Detaild Records</h1>
+            <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+          </div>
+        </div>
+        <div className='item'>
+          <div className='item-category'>
+            <div className='item-circus'>
+
+            </div>
+            <h1>Fully Customizable</h1>
+            <p>Imporve brand awarness and content discoverability through customizable links, supercharging audience engagement.</p>
           </div>
         </div>
       </div>
