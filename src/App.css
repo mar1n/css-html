@@ -149,7 +149,7 @@ form  {
   position: relative;
 }
 
-.item-circus {
+.item-recognition {
   width: 64px;
   height: 64px;
   position: absolute;
@@ -167,6 +167,41 @@ form  {
   display: inline-block;
 }
 
+.item-customizable {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top:-2%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  background-color: #3A3052;
+  background-position: center;
+  border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+  background-image: url(icon-detailed-records.svg);
+  background-repeat: no-repeat;
+  padding: 5px;
+  display: inline-block;
+}
+
+.item-circus {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top:-2%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  background-color: #3A3052;
+  background-position: center;
+  border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    background-image: url(icon-fully-customizable.svg);
+  background-repeat: no-repeat;
+  padding: 5px;
+  display: inline-block;
+}
 
 @media only screen and (max-width: 600px) {
   .flex-container {

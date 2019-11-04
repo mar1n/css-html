@@ -98,7 +98,7 @@ function App() {
         </div>
         <div className='item'>
           <div className='item-category'>
-            <div className='item-circus-recognition'>
+            <div className='item-recognition'>
 
             </div>
             <h1>Brand Recognition</h1>
@@ -106,8 +106,8 @@ function App() {
           </div>
         </div>
         <div className='item'>
-          <div className='item-category-records'>
-            <div className='item-circus-customizable'>
+          <div className='item-category'>
+            <div className='item-customizable'>
 
             </div>
             <h1>Detaild Records</h1>
@@ -123,6 +123,13 @@ function App() {
             <p>Imporve brand awarness and content discoverability through customizable links, supercharging audience engagement.</p>
           </div>
         </div>
+        <div className='item'>
+          <div className='get-started'>
+            <h1>Boost your links today</h1>
+            <button>Get Started</button>
+          </div>
+        </div>
+
       </div>
       <div>
         <div>
