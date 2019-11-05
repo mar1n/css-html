@@ -147,21 +147,20 @@ function App() {
             <p>Contact</p>
           </div>
         </div>
-        <div className='item'>
-          <div className='footer-facebook'></div>
-          <div className='footer-twitter'></div>
-          <div className='footer-pinterest'></div>
-          <div className='footer-instagram'></div>
+        <div className='flex-container2' >
+          <div className='footer'>
+            <div className='footer-facebook'></div>
+          </div>
+          <div className='footer'>
+            <div className='footer-twitter'></div>
+          </div>
+          <div className='footer'>
+            <div className='footer-pinterest'></div>
+          </div>
+          <div className='footer'>
+            <div className='footer-instagram'></div>
+          </div>
         </div>
-
-      </div>
-      <div>
-        <div>
-          <a href="#" />
-          <a href="#" />
-          <button>Copy</button>
-        </div>
-        <a href="#" />
       </div>
     </div>
   );
