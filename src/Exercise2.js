@@ -4,13 +4,16 @@ import React, { useState } from 'react';
 
 
 const Exercise2 = () => {
-    const greeting = 'Hello Function Component!';
-    return <Headline value={greeting} />;
+    
+    return <Headline />;
   }
 
 
-  const Headline = ({ value }) => {
-    return <h1>{value}</h1>;
-  }
+  const Headline = () => { 
+        const [greeting, setGreeting] = useState(
+            'Hello Function Component!'
+        );
+        return <h1>{greeting}</h1>;
+};
 
   export default Exercise2;
