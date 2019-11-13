@@ -4,24 +4,26 @@ import React, { useState } from 'react';
 
 
 const Exercise2 = () => {
-    return <Headline />;
-}
-
-
-const Headline = () => {
     const [greeting, setGreeting] = useState(
-        'Hello Function Component!'
+        'Hello function Component!'
     );
 
     const handleChange = event => setGreeting(event.target.value);
     return (
+        <Headline headline={greeting} onChangeHeadline={handleChange} />
+    );
+}
+
+
+const Headline = ({ headline, onChangeHeadline }) => {
+    return (
         <div>
-            <h1>{greeting}</h1>
+            <h1>{headline}</h1>
 
             <input
                 type="text"
-                value={greeting}
-                onChange={handleChange}
+                value={headline}
+                onChange={onChangeHeadline}
             />
         </div>
     );
